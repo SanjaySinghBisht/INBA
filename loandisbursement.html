@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Loan Disbursement</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Loan Disbursement</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+			    <div class="fields ">
+                     <label><b>Loan Details</b></label>
+                  </div>
+				  <div class="clear"></div>
+				   <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <input  type="text" placeholder="PERSONNEL NUMBER" />
+                  </div>
+                  <div class="fields">
+                     <label>Name</label>
+                     <input  type="text" placeholder="Name" />
+                  </div>
+				  <div class="fields">
+                     <label>Application No.</label>
+                     <select class="dropdown"><option>Select</option></select>
+                  </div>
+				  <div class="fields">
+                     <label>Loan Serial No.</label>
+                     <input  type="text" placeholder="Loan Serial No." />
+                  </div>
+				  <div class="fields">
+                     <label>Loan AMount</label>
+                     <input  type="text" placeholder="Loan AMount" />
+                  </div>
+				  <div class="fields">
+                     <label>Attached amount</label>
+                     <input  type="text" placeholder="Attached amount" />
+                  </div>
+				  <div class="fields">
+                     <label>Recoverable amount</label>
+                     <input  type="text" placeholder="Recoverable amount" />
+                  </div>
+				  <div class="fields">
+                     <label>Disbursement Amount</label>
+                     <input  type="text" placeholder="Disbursement Amount" />
+                  </div>
+				  <div class="fields">
+                     <label>Process Fee</label>
+                     <input  type="text" placeholder="Process Fee" />
+                  </div>
+				  <div class="fields">
+                     <label>installment Premium</label>
+                     <input  type="text" placeholder="installment Premium" />
+                  </div>
+				  <div class="fields">
+                     <label>Balance loan amount</label>
+                     <input  type="text" placeholder="Balance loan amount" />
+                  </div>
+				  <div class="fields">
+                     <label>Total EMI</label>
+                     <input  type="text" placeholder="Total EMI" />
+                  </div>
+                   <div class="fields new-block fullwidth">
+                     <label class="no-width"><b>Disbursement Details</b></label>
+                  </div>
+				   <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Disbursement SI No.</label>
+					 <input type="text" placeholder="Disbursement SI No." />
+                  </div>
+                  <div class="fields">
+                     <label>Disbursement installment No.</label>
+                     <input type="text" placeholder="Disbursement installment No." />
+                  </div>
+                  <div class="fields">
+                     <label>Disbursement date<span class="validation">*</span></label>
+                     <input type="text" placeholder="Disbursement date" />
+                  </div>
+                  <div class="fields">
+                     <label>installment Amount</label>
+                     <input type="text" placeholder="installment Amount" />
+                  </div>
+                  <div class="fields">
+                     <label>process Fee</label>
+                     <input type="text" placeholder="process Fee" />
+                  </div>
+				  <div class="fields">
+                     <label>installment Premium</label>
+                     <input type="text" placeholder="installment Premium" />
+                  </div>
+				  <div class="fields">
+                     <label>Act Disbursement Fee</label>
+                     <input class="half-width" type="text" placeholder="process Fee" />
+					 <input class="buttons blue" value="Calculate" placeholder="PERSONNEL NUMBER" type="button">
+                  </div>
+				   <div class="fields">
+                     <label>Bank</label>
+                     <select class="dropdown"><option>Select</option></select>
+                  </div>
+				   <div class="fields">
+                     <label>Account No.</label>
+                     <input type="text" placeholder="Account No." />
+                  </div>
+				  <div class="fields">
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios">Cheque</span>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios">DD</span>
+                  </div>
+				  <div class="clear"></div>
+				  <div class="fields">
+                     <label>Cheque /DD No.</label>
+                     <input type="text" placeholder="Cheque /DD No." />
+                  </div>
+				  <div class="fields">
+                     <label>Favouriy</label>
+                     <input type="text" placeholder="Favouriy" />
+                  </div>
+				  <div class="fields">
+                     <label>Mor installments</label>
+                     <input type="text" placeholder="More installments" />
+                  </div>
+				  <div class="fields">
+                     <label>MOR Start Date</label>
+                     <input type="text" placeholder="MOR Start Date" />
+                  </div>
+				  <div class="fields">
+                     <label>Mor amount</label>
+                     <input type="text" placeholder="Mor amount" />
+                  </div>
+				  <div class="fields">
+                     <label>EMI start date</label>
+                     <input type="text" placeholder="EMI start date" />
+                  </div>
+				  <div class="fields">
+                     <label>Rev emi</label>
+                     <input type="text" placeholder="Revised emi" />
+                  </div>
+				  <div class="fields">
+                     <label>Rev tenure</label>
+                     <input type="text" placeholder="Rev tenure" />
+                  </div>
+				  <div class="fields">
+                     <label>last emi surplus</label>
+                     <input type="text" placeholder="last emi surplus" />
+                  </div>
+				  <div class="fields">
+                     <label style="float:left">remarks</label>
+                     <textarea></textarea>
+                  </div>
+				  
+				  
+				   <div class="fields fullwidth">
+                     
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios no-width">Revised EMI</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios no-width">Revised Tenure</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios no-width">Both</span>
+                    
+                  </div>
+				  <div class="clear"></div>
+				   <div class="spacing">&nbsp;</div>
+                  <div class="fields  new-block fullwidth">
+                     <label class="fullwidth"><b>print letter for grant of loan</b></label>
+					 <div class="spacing">&nbsp;</div>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios no-width">First disbursement</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios no-width">Second/Higher disbursement</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios no-width">Enhanced amount</span>
+                    
+                
+                  </div>
+                  
+               </div>
+               <div class="button">
+                  
+                  <input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+				  <input type="button" value="print" class="buttons blue"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

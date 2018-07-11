@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Bulk Recovery</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Bulk Recovery</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>recovery date</label>
+                     <input type="text" placeholder="recovery date" />
+                  </div>
+                  <div class="fields">
+                     <label>For</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Loan Type</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>File name</label>
+                     <input class="half-width" type="text" placeholder="File name" />&nbsp;<input type="button" value="Browse" class=" buttons blue"/>
+                  </div>
+                  <div class="fields  new-block fullwidth">
+                     <label class="fullwidth"><b>Update Details</b></label>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields fullwidth">
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">RECORDS UPDATES</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">FAILED UPDATES</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios no-width">TRANSACTION EXIST AT LATER DATE()</span>
+                  </div>
+               </div>
+               <div class="button">
+                  <input type="button" value="Print" class=" buttons lightgreen"/>
+                  <input type="button" value="Copy File" class=" buttons lightgreen"/>
+                  <input type="button" value="Post Recovery" class=" buttons lightgreen"/>
+                  <input type="button" value="Delete" class=" buttons red"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

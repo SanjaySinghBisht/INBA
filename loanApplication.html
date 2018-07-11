@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Loan Application</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Loan Application</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input"  type="text" placeholder="PERSONNEL NUMBER" />
+                     <input class="go-buttons blue" value="go" type="button" placeholder="PERSONNEL NUMBER" />
+                  </div>
+                  <div class="fields">
+                     <label>Name</label>
+                     <input type="text" placeholder="Name" />
+                  </div>
+                  <div class="fields">
+                     <label>Permannet Address</label>
+                     <input type="text" placeholder="Permannet Address" />
+                  </div>
+                  <div class="fields">
+                     <label>Application Number</label>
+                     <input type="text" placeholder="Application Number" />
+                  </div>
+                  <div class="fields">
+                     <label>Retirement Date</label>
+                     <input type="text" placeholder="Retirement Date" />
+                  </div>
+                  <div class="fields">
+                     <label>Application Date</label>
+                     <input type="text" placeholder="Application Date" />
+                  </div>
+                  <div class="fields  new-block fullwidth">
+                     <label><b>loan Type</b></label>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">CAR NEW</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">CAR OLD</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">PC LOAN</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">TWO WHEELER LOAN</span>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Loan Amount<span class="validation">*</span></label>
+                     <input type="text" placeholder="Loan Amount" />
+                  </div>
+                  <div class="fields">
+                     <label>Attached Amount</label>
+                     <input type="text" placeholder="Attached Amount" />
+                  </div>
+                  <div class="fields">
+                     <label>Recoverable Amount<span class="validation">*</span></label>
+                     <input type="text" placeholder="Recoverable Amount" />
+                  </div>
+                  <div class="fields">
+                     <label>Repaying capacity</label>
+                     <input type="text" placeholder="Repaying capacity" />
+                  </div>
+                  <div class="fields">
+                     <label>Installments<span class="validation">*</span></label>
+                     <input type="text" placeholder="Installments" />
+                  </div>
+                  <div class="fields">
+                     <label>Reduction term<span class="validation">*</span></label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Interest rate</label>
+                     <input type="text" placeholder="Interest rate" />
+                  </div>
+                  <div class="fields">
+                     <label>EMI on recovery</label>
+                     <input type="text" placeholder="EMI on recovery" />
+                  </div>
+                  <div class="fields">
+                     <label>Interest on attached</label>
+                     <input type="text" placeholder="Interest on attached" />
+                  </div>
+                  <div class="fields">
+                     <label>Total EMI</label>
+                     <input type="text" placeholder="Total EMI" />
+                  </div>
+                  <div class="fields">
+                     <label>Application Status</label>
+                     <input type="text" placeholder="Application Status" />
+                  </div>
+                  <div class="fields  new-block fullwidth">
+                     <label class="fullwidth"><b>particulars for vehicle/computer</b></label>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Make<span class="validation">*</span></label>
+                     <input type="text" placeholder="Make" />
+                  </div>
+                  <div class="fields">
+                     <label>Number</label>
+                     <input type="text" placeholder="Number" />
+                  </div>
+                  <div class="fields">
+                     <label>Source/Dealer<span class="validation">*</span></label>
+                     <input type="text" placeholder="Source/Dealer" />
+                  </div>
+                  <div class="fields">
+                     <label>model<span class="validation">*</span></label>
+                     <input type="text" placeholder="model" />
+                  </div>
+                  <div class="fields">
+                     <label>Cost<span class="validation">*</span></label>
+                     <input type="text" placeholder="Cost" />
+                  </div>
+                  <div class="fields">
+                     <label>Receiving No.<span class="validation">*</span></label>
+                     <input type="text" placeholder="Receiving No." />
+                  </div>
+                  <div class="fields">
+                     <label>Diary No</label>
+                     <input type="text" placeholder="Diary No" />
+                  </div>
+                  <div class="fields">
+                     <label>Diary date</label>
+                     <input type="text" placeholder="Diary Date" />
+                  </div>
+                  <div class="fields  new-block fullwidth">
+                     <label class="fullwidth"><b>Other Loan Details</b></label>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields fullwidth">
+                     <div class="table">
+                        <div class="row">
+                           <div class="cell heading"><label><b>Loan from</b></label></div>
+                           <div class="cell heading"><label><b>Loan from</b></label></div>
+                           <div class="cell heading"><label><b>Loan from</b></label></div>
+                           <div class="cell heading"><label><b>Loan from</b></label></div>
+                           <div class="cell heading"><label><b>Loan from</b></label></div>
+                           <div class="cell heading"><label><b>Loan from</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="button">
+                  <input type="button" value="Show Document List" class="buttons grey"/>
+                  <input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

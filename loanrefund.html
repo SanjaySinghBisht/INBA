@@ -1,0 +1,224 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Loan Refund</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Loan Refund</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+			   <div class="fields new-block fullwidth">
+                     <label class="no-width"><b>Loan Details</b></label>
+                  </div>
+				   <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+			   <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input" placeholder="PERSONNEL NUMBER" type="text">
+                     <input class="go-buttons blue" value="go" placeholder="PERSONNEL NUMBER" type="button">
+                  </div>
+			  
+                  <div class="fields">
+                     <label>Name</label>
+                     <input  type="text" placeholder="Name" />
+                  </div>
+				  <div class="fields">
+                     <label>Loan Serial No.</label>
+                     <select class="dropdown"><option>Select</option></select>
+                  </div>
+				  <div class="fields">
+                     <label>Emi(running)</label>
+                     <input  type="text" placeholder="Emi(running)" />
+                  </div>
+				  <div class="fields">
+                     <label>Approved date</label>
+                     <input  type="text" placeholder="Approved date" />
+                  </div>
+				   <div class="fields">
+                     <label>Loan Amount</label>
+                     <input  type="text" placeholder="Loan Amount" />
+                  </div>
+				  
+				  <div class="fields">
+                     <label>Recoverable Amount</label>
+                     <input  type="text" placeholder="Recoverable Amount" />
+                  </div>
+				  <div class="fields">
+                     <label>Attached AMount</label>
+                     <input  type="text" placeholder="Attached AMount" />
+                  </div>
+				  <div class="fields">
+                     <label>Outstanding Principal</label>
+                     <input  type="text" placeholder="Outstanding Principal" />
+                  </div>
+				  
+				  <div class="fields">
+                     <label>Total amount recovered</label>
+                     <input  type="text" placeholder="Total amount recovered" />
+                  </div>
+				  <div class="fields">
+                     <label>principal Recovered</label>
+                     <input  type="text" placeholder="principal Recovered" />
+                  </div>
+				  <div class="fields">
+                     <label>Interest Recovered</label>
+                     <input  type="text" placeholder="Interest Recovered" />
+                  </div>
+				  <div class="fields">
+                     <label>Installments received</label>
+					 
+                     <input  placeholder="Installments received" type="text">
+					
+                  </div>
+				   
+				  <div class="fields">
+                     <label>Balance installments</label>
+                     <input  type="text" placeholder="Balance installments" />
+                  </div>
+				  <div class="fields">
+                     <label>repaying capacity</label>
+                     <input  type="text" placeholder="repaying capacity" />
+                  </div>
+				   
+				  <div class="fields">
+                     <label>Service left<span class="message">(in months)</span></label>
+                     <input  type="text" placeholder="Service left" />
+                  </div>
+				  <div class="fields">
+                     <label>differential surplus npo</label>
+                     <input  type="text" placeholder="differential surplus npo" />
+                  </div>
+				   <div class="fields">
+                     <label>differential surplus ind</label>
+                     <input  type="text" placeholder="differential surplus ind" />
+                  </div>
+				   <div class="fields">
+                     <label>last emi surplus</label>
+                     <input  type="text" placeholder="last emi surplus" />
+                  </div>
+                   <div class="fields new-block fullwidth">
+                     <label class="no-width"><b>refund Details</b></label>
+                  </div>
+				   <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+				   <div class="fields fullwidth">
+				   <label>type of refund</label>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">full</span>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">port</span>
+					 
+                  </div>
+				   
+                  <div class="fields">
+                     <label>date of refund</label>
+					 <input type="text" placeholder="date of refund" />
+                  </div>
+                  <div class="fields">
+                     <label>refund sources</label>
+                     <select class="dropdown"><option>select</option></select>
+                  </div>
+                  <div class="fields">
+                     <label>Amount</label>
+					<input type="text" placeholder=" Amount" />
+                  </div>
+                  <div class="fields">
+                     <label>refund mode</label>
+                     <input type="text" placeholder="refund mode" />
+                  </div>
+                  <div class="fields">
+                     <label>Date</label>
+                     <input type="text" placeholder="Date" />
+                  </div>
+				  <div class="fields">
+                     <label>principal</label>
+                     <input type="text" placeholder="principal" />
+                  </div>
+				
+				   <div class="fields">
+                     <label>Attached</label>
+                     <input type="text" placeholder="Attached" />
+                  </div>
+				   <div class="fields">
+                     <label>recoverable</label>
+                     <input type="text" placeholder="recoverable" />
+                  </div>
+				  <div class="fields">
+                     <label style="float:left">remarks</label>
+                     <textarea></textarea>
+                  </div>
+				  <div class="clear"></div>
+				  <div class="fields fullwidth">
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">revised EMI</span>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">Revised tenure</span>
+					 <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">both</span>
+					 <input type="button" value="calculator" class="buttons green"/>
+					 
+                  </div>
+				  <div class="clear"></div>
+				   <div class="fields">
+                     <label>Revised installments</label>
+                      <input type="text" placeholder="Revised installments" />
+                  </div>
+				  <div class="fields">
+                     <label>Revised emi</label>
+                      <input type="text" placeholder="Revised emi" />
+                  </div>
+				  <div class="fields new-block fullwidth">
+				  <label><b>Print Letter</b></label>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">Full refund</span>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">Part refund</span>
+					
+                  </div>
+				  <div class="fields new-block fullwidth">
+                     <label class="no-width"><b>refund records</b></label>
+                  </div>
+				   <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+               </div>
+               <div class="button">
+                  
+                  <input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+				   <input type="button" value="print" class="buttons grey"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

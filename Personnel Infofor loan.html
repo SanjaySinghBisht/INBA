@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Personnel Info for loan</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Personnel Details</a></li>
+                  <li><a name="Second" href="#" >Bank Details</a></li>
+                  <li><a name="Third" href="#" >Department Details</a></li>
+                  <li><a name="Fourth" href="#" >Application Info</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Category</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>DOD</label>
+                     <input type="text" placeholder="DOD" />
+                  </div>
+                  <div class="fields">
+                     <label>DOB</label>
+                     <input type="text" placeholder="DOB" />
+                  </div>
+                  <div class="fields">
+                     <label>DOR</label>
+                     <input type="text" placeholder="DOR" />
+                  </div>
+                  <div class="fields">
+                     <label>AGE</label>
+                     <input type="text" placeholder="AGE" />
+                  </div>
+                  <div class="fields">
+                     <label>Firstname</label>
+                     <input type="text" placeholder="Firstname" />
+                  </div>
+                  <div class="fields">
+                     <label>lastname</label>
+                     <input type="text" placeholder="lastname" />
+                  </div>
+                  <div class="fields">
+                     <label>marital Status</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Loan for</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Ship Establishment</label>
+                     <input type="text" placeholder="Ship Establishment" />
+                  </div>
+                  <div class="fields">
+                     <label>Ship/e/Address</label>
+                     <input type="text" placeholder="Ship/e/Address" />
+                  </div>
+                  <div class="fields">
+                     <label>Rank</label>
+                     <input type="text" placeholder="Rank" />
+                  </div>
+                  <div class="fields">
+                     <label>Station</label>
+                     <input type="text" placeholder="Station" />
+                  </div>
+                  <div class="fields">
+                     <label>Contact Number</label>
+                     <input type="text" placeholder="Contact Number" />
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="Update" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Second">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>bank Name</label>
+                     <input type="text" placeholder="bank Name" />
+                  </div>
+                  <div class="fields">
+                     <label>Branch</label>
+                     <input type="text" placeholder="Branch" />
+                  </div>
+                  <div class="fields">
+                     <label>IFSC Code</label>
+                     <input type="text" placeholder="IFSC Code" />
+                  </div>
+                  <div class="fields">
+                     <label>SB AIC Number</label>
+                     <input type="text" placeholder="SB AIC Number" />
+                  </div>
+                  <div class="fields fullwidth">
+                     <div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">BANK TRANSFER</span>
+<div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">DD</span>
+<div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">CHEQUE</span>
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Third">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Department Type</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Department Form</label>
+                     <input type="text" placeholder="Department Form" />
+                  </div>
+                  <div class="fields">
+                     <label>Department Name</label>
+                     <input type="text" placeholder="Department Name" />
+                  </div>
+                  <div class="fields">
+                     <label>Education Qualification</label>
+                     <input type="text" placeholder="Education Qualification" />
+                  </div>
+                  <div class="fields">
+                     <label>Age</label>
+                     <input type="text" placeholder="Age" />
+                  </div>
+                  <div class="fields">
+                     <label>Relationship</label>
+                     <input type="text" placeholder="Relationship" />
+                  </div>
+               </div>
+               <div class="button">
+                  <input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Fourth">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Loan Number</label>
+                     <input type="text" placeholder="Loan Number" />
+                  </div>
+                  <div class="fields">
+                     <label>Session</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Loan Sr. No</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Purpose</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>	Meating no.</label>
+                     <input type="text" placeholder="Meating no." />
+                  </div>
+                  <div class="fields">
+                     <label>loan Sanction amount</label>
+                     <input type="text" placeholder="loan Sanction amount" />
+                  </div>
+                  <div class="fields">
+                     <label>App date</label>
+                     <input type="text" placeholder="App date" />
+                  </div>
+                  <div class="fields">
+                     <label>Ref No.</label>
+                     <input type="text" placeholder="Ref No." />
+                  </div>
+                  <div class="fields">
+                     <label>No. of recovery emi</label>
+                     <select class="dropdown">
+                        <option>Select</option>
+                     </select>
+                  </div>
+                  <div class="fields">
+                     <label>Outsourcing amount</label>
+                     <input type="text" placeholder="Outsourcing amount" />
+                  </div>
+                  <div class="fields">
+                     <label>No. of installments</label>
+                     <input type="text" placeholder="No. of installments" />
+                  </div>
+                  <div class="fields">
+                     <label>loan Amount</label>
+                     <input type="text" placeholder="loan Amount" />
+                  </div>
+                  <div class="fields">
+                     <label>recovery statement</label>
+                     <input type="text" placeholder="recovery statement" />
+                  </div>
+                  <div class="fields">
+                     <label>rate</label>
+                     <input type="text" placeholder="rate" />
+                  </div>
+                  <div class="fields">
+                     <label>Emi</label>
+                     <input type="text" placeholder="Emi" />
+                  </div>
+                  <div class="fields">
+                     <label>Attached amount</label>
+                     <input type="text" placeholder="Attached amount" />
+                  </div>
+                  <div class="fields">
+                     <label>Attached interest amount</label>
+                     <input type="text" placeholder="Attached interest amount" />
+                  </div>
+                  <div class="fields">
+                     <label style="float:left">Remarks</label>
+                     <textarea></textarea>
+                  </div>
+                  <div class="fields fullwidth">
+                     <label><b>App Status</b></label>
+                     <div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">APPLIED</span>
+<div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">HELD OVER</span>
+<div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">NOT ELIGIBLE</span>
+<div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">APPROVED</span>
+<div class="checkbox-btn">
+ <input type="checkbox" name="group1" class="backup" value="1">
+</div>
+<span class="radios">DISBURRED</span>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields fullwidth">
+                     <div class="table">
+                        <div class="row">
+                           <div class="cell heading"><label><b>Month/Year	</b></label></div>
+                           <div class="cell heading"><label><b>		Installment No.	</b></label></div>
+                           <div class="cell heading"><label><b>			Emi		</b></label></div>
+                           <div class="cell heading"><label><b>	 B. principal	</b></label></div>
+                           <div class="cell heading"><label><b>		Recovery Principal	</b></label></div>
+                           <div class="cell heading"><label><b>		Interest Received</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                           <div class="cell heading"><label><b>&nbsp;</b></label></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

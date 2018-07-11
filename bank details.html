@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>bank details</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+	  <script>
+	  $(document).ready(function(){
+	  
+	  $("#add-row").click(function(){
+	debugger;
+		//var values = $(this).parent().find("input").map(function() {
+        //return $(this).text();
+		//}).get();
+		
+		//});
+	});
+	  
+	  });
+	  	
+	</script>
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Bank Details</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+                 <div class="fields fullwidth">
+                     <div class="table large-table">
+                        <div class="row">
+                           <div class="cell heading"><label><b>Name of Bank</b></label></div>
+                           <div class="cell heading"><label><b>City</b></label></div>
+                           <div class="cell heading"><label><b>Address</b></label></div>
+                           <div class="cell heading"><label><b>account Number</b></label></div>
+                           <div class="cell heading"><label><b>Edit</b></label></div>
+						   <div class="cell heading"><label><b>Delete</b></label></div>
+						   <div class="cell heading"><label><b></b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><label>PNB</label></div>
+                           <div class="cell heading"><label>CHD</label></div>
+                           <div class="cell heading"><label>#893/72</label></div>
+                           <div class="cell heading"><label>13212321314434</label></div>
+                           <div class="cell heading"><label><img alt="EDIT" class="edit-image" src="images/edit.png"></label></div>
+						    <div class="cell heading"><label><img alt="EDIT" class="delete-image" src="images/delete.png"></label></div>
+						   <div class="cell heading"><label><b></b></label></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell heading"><label>PNB</label></div>
+                           <div class="cell heading"><label>CHD</label></div>
+                           <div class="cell heading"><label>#893/72</label></div>
+                           <div class="cell heading"><label>13212321314434</label></div>
+                           <div class="cell heading"><label><img alt="EDIT" class="edit-image" src="images/edit.png"></label></div>
+						    <div class="cell heading"><label><img alt="EDIT" class="delete-image" src="images/delete.png"></label></div>
+						   <div class="cell heading"><label><b></b></label></div>
+                        </div>
+                        <div class="row">
+                            <div class="cell heading"><label>PNB</label></div>
+                           <div class="cell heading"><label>CHD</label></div>
+                           <div class="cell heading"><label>#893/72</label></div>
+                           <div class="cell heading"><label>13212321314434</label></div>
+                           <div class="cell heading"><label><img alt="EDIT" class="edit-image" src="images/edit.png"></label></div>
+						    <div class="cell heading"><label><img alt="EDIT" class="delete-image" src="images/delete.png"></label></div>
+						   <div class="cell heading"><label><b></b></label></div>
+                        </div>
+                        <div class="row">
+                           <div class="cell heading"><input type="text" placeholder="Name of Bank" /></div>
+                           <div class="cell heading"><input type="text" placeholder="City" /></div>
+                           <div class="cell heading"><input type="text" placeholder="Address" /></div>
+                           <div class="cell heading"><input type="text" placeholder="account Number" /></div>
+						   <div class="cell heading"><label><b></b></label></div>
+                           <div class="cell heading"><label><b></b></label></div>
+                           <div class="cell heading"><input type="button" value="Add"  id="add-row" class=" buttons lightgreen"/></div>
+                        </div>
+                     </div>
+                     <br/>
+                  </div>
+               </div>
+			    <div class="button">
+                  <input value="save" class="buttons green"  type="button">
+                  <input value="Close" class="buttons darkred" type="button">
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

@@ -1,0 +1,511 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>personnel</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Personnel</a></li>
+                  <li><a name="Second" href="#" >Salary</a></li>
+                  <li><a name="Third" href="#" >Services</a></li>
+                  <li><a name="Fourth" href="#" >SD Officer</a></li>
+                  <li><a name="Fifth" href="#" >Death / Disability</a></li>
+                  <li><a name="Sixth" href="#" >Nominee</a></li>
+                  <li><a name="Seventh" href="#" >Assignments</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input"  type="text" placeholder="PERSONNEL NUMBER" />
+                     <input class="go-buttons blue" value="go" type="button" placeholder="PERSONNEL NUMBER" />
+                  </div>
+                  <div class="fields">
+                     <label>DOB</label>
+                     <input type="text" placeholder="DOB" />
+                  </div>
+                  <div class="fields">
+                     <label>NAME</label>
+                     <input type="text" placeholder="NAME" />
+                  </div>
+                  <div class="fields">
+                     <label>EMAIL ID</label>
+                     <input type="text" placeholder="EMAIL ID" />
+                  </div>
+                  <div class="fields">
+                     <label>FATHER NAME</label>
+                     <input type="text" placeholder="FATHER NAME" />
+                  </div>
+                  <div class="fields">
+                     <label>PHONE/MOBILE NO.</label>
+                     <input type="text" placeholder="PHONE/MOBILE NO." />
+                  </div>
+                  <div class="fields fullwidth">
+                     <label>MARITAL STATUS</label>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">SINGLE</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">DIVORCED</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">Married</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">WIDOW/WIDOWER</span>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing"></div>
+                  <div class="fields fullwidth">
+                     <label>GENDER</label>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">MALE</span>
+                     <div class="checkbox-btn">
+                        <input type="checkbox" name="group1" class="backup" value="1">
+                     </div>
+                     <span class="radios">FEMALE</span>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label><b>PRESENT ADDRESS</b></label>
+                  </div>
+                  <div class="fields">
+                     <label><b>PERMANENT ADDRESS</b></label>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>APPOINTMENT</label>
+                     <input type="text" placeholder="APPOINTMENT" />
+                  </div>
+                  <div class="fields">
+                     <label>STREET ADDRRESS</label>
+                     <input type="text" placeholder="STREET ADDRRESS" />
+                  </div>
+                  <div class="fields">
+                     <label>UNIT/SHIP</label>
+                     <input type="text" placeholder="UNIT/SHIP" />
+                  </div>
+                  <div class="fields">
+                     <label>CITY</label>
+                     <input type="text" placeholder="CITY" />
+                  </div>
+                  <div class="fields">
+                     <label>ADDRESS</label>
+                     <input type="text" placeholder="ADDRESS" />
+                  </div>
+                  <div class="fields">
+                     <label>STATE</label>
+                     <input type="text" placeholder="STATE" />
+                  </div>
+                  <div class="fields">
+                     <label>CITY</label>
+                     <input type="text" placeholder="CITY" />
+                  </div>
+                  <div class="fields">
+                     <label>COUNTRY</label>
+                     <input type="text" placeholder="COUNTRY" />
+                  </div>
+                  <div class="fields">
+                     <label>MAILING ADDRESS</label>
+                     <input type="text" placeholder="MAILING ADDRESS" />
+                  </div>
+                  <div class="fields">
+                     <label>PIN CODE</label>
+                     <input type="text" placeholder="PIN CODE" />
+                  </div>
+                  <div class="fields hidden">
+                     <label>FATHER NAME</label>
+                     <input type="text" placeholder="FATHER NAME" />
+                  </div>
+                  <div class="fields">
+                     <label>TELEPHONE NO.</label>
+                     <input type="text" placeholder="TELEPHONE NO." />
+                  </div>
+                  <div class="fields  new-block fullwidth">
+                     <label><b>Spouse Details</b></label>
+                  </div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Name</label>
+                     <input type="text" placeholder="Name" />
+                  </div>
+                  <div class="fields">
+                     <label>DOB</label>
+                     <input type="text" placeholder="DOB" />
+                  </div>
+                  <div class="fields">
+                     <label>Occupation</label>
+                     <input type="text" placeholder="Occupation" />
+                  </div>
+                  <div class="fields">
+                     <label>Salary</label>
+                     <input type="text" placeholder="Salary" />
+                  </div>
+                  <div class="fields  new-block fullwidth">
+                     <label><b>Bank Details</b></label>
+                  </div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Name of bank</label>
+                     <input type="text" placeholder="Name of bank" />
+                  </div>
+                  <div class="fields">
+                     <label>Address of bank</label>
+                     <input type="text" placeholder="Address of bank" />
+                  </div>
+                  <div class="fields">
+                     <label>Account Number</label>
+                     <input type="text" placeholder="Account Number" />
+                  </div>
+                  <div class="fields">
+                     <label>IFSC</label>
+                     <input type="text" placeholder="IFSC" />
+                  </div>
+                  <div class="fields  new-block fullwidth">
+                     <label><b>DD Details</b></label>
+                  </div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>DD in favour Of</label>
+                     <input type="text" placeholder="DD in favour Of" />
+                  </div>
+                  <div class="fields">
+                     <label>Payable at</label>
+                     <input type="text" placeholder="Payable at" />
+                  </div>
+                  <div class="fields ">
+                     <label><b>Cheque Details</b></label>
+                  </div>
+                  <div class="fields">
+                     <label><b>AFNHB Details</b></label>
+                  </div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Cheque in favour Of</label>
+                     <input type="text" placeholder="Cheque in favour Of" />
+                  </div>
+                  <div class="fields">
+                     <label>Registration Number</label>
+                     <input type="text" placeholder="Registration Number" />
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Second">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input"  type="text" placeholder="PERSONNEL NUMBER" />
+                     <input class="go-buttons blue" value="go" type="button" placeholder="PERSONNEL NUMBER" />
+                  </div>
+                  <div class="fields">
+                     <label>NAME</label>
+                     <input type="text" placeholder="NAME" />
+                  </div>
+                  <div class="fields new-block fullwidth">
+                     <label><b>Emoluments</b></label>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Basic pay</label>
+                     <input type="text" placeholder="Basic pay" />
+                  </div>
+                  <div class="fields">
+                     <label>Rank Pay</label>
+                     <input type="text" placeholder="Rank Pay" />
+                  </div>
+                  <div class="fields">
+                     <label>MSP</label>
+                     <input type="text" placeholder="MSP" />
+                  </div>
+                  <div class="fields">
+                     <label>DA</label>
+                     <input type="text" placeholder="DA" />
+                  </div>
+                  <div class="fields">
+                     <label>KMA</label>
+                     <input type="text" placeholder="KMA" />
+                  </div>
+                  <div class="fields">
+                     <label>CCA</label>
+                     <input type="text" placeholder="CCA" />
+                  </div>
+                  <div class="fields">
+                     <label>TPT</label>
+                     <input type="text" placeholder="TPT" />
+                  </div>
+                  <div class="fields">
+                     <label>Flying Pay</label>
+                     <input type="text" placeholder="Flying Pay" />
+                  </div>
+                  <div class="fields">
+                     <label>Sub Marine</label>
+                     <input type="text" placeholder="Sub Marine" />
+                  </div>
+                  <div class="fields">
+                     <label>technical</label>
+                     <input type="text" placeholder="technical" />
+                  </div>
+                  <div class="fields">
+                     <label>IMSF pay</label>
+                     <input type="text" placeholder="IMSF pay" />
+                  </div>
+                  <div class="fields">
+                     <label>Special Pay</label>
+                     <input type="text" placeholder="Special Pay" />
+                  </div>
+                  <div class="fields">
+                     <label>Diving All</label>
+                     <input type="text" placeholder="Diving All" />
+                  </div>
+                  <div class="fields">
+                     <label>IR</label>
+                     <input type="text" placeholder="IR" />
+                  </div>
+                  <div class="fields">
+                     <label>HRA</label>
+                     <input type="text" placeholder="HRA" />
+                  </div>
+                  <div class="fields">
+                     <label>FPA</label>
+                     <input type="text" placeholder="FPA" />
+                  </div>
+                  <div class="fields">
+                     <label>NPA</label>
+                     <input type="text" placeholder="NPA" />
+                  </div>
+                  <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields new-block fullwidth">
+                     <label><b>Deductions</b></label>
+                  </div>
+                  <div class="spacing">&nbsp;</div>
+                  <div class="fields">
+                     <label>Income tax</label>
+                     <input type="text" placeholder="Income tax" />
+                  </div>
+                  <div class="fields">
+                     <label>DSOP</label>
+                     <input type="text" placeholder="DSOP" />
+                  </div>
+                  <div class="fields">
+                     <label>MGIS</label>
+                     <input type="text" placeholder="MGIS" />
+                  </div>
+                  <div class="fields">
+                     <label>CESS</label>
+                     <input type="text" placeholder="CESS" />
+                  </div>
+                  <div class="fields">
+                     <label>INBA</label>
+                     <input type="text" placeholder="INBA" />
+                  </div>
+                  <div class="fields">
+                     <label>Amcnity</label>
+                     <input type="text" placeholder="Amcnity" />
+                  </div>
+                  <div class="fields">
+                     <label>AGIS</label>
+                     <input type="text" placeholder="AGIS" />
+                  </div>
+                  <div class="fields">
+                     <label>Govt HBA</label>
+                     <input type="text" placeholder="Govt PC" />
+                  </div>
+                  <div class="fields">
+                     <label>NGIS HBA</label>
+                     <input type="text" placeholder="NGIS HBA" />
+                  </div>
+                  <div class="fields">
+                     <label>NGIF PC</label>
+                     <input type="text" placeholder="NGIF PC" />
+                  </div>
+                  <div class="fields">
+                     <label>NGIF TW</label>
+                     <input type="text" placeholder="NGIF TW" />
+                  </div>
+                  <div class="fields">
+                     <label>Govt TW</label>
+                     <input type="text" placeholder="Govt TW" />
+                  </div>
+                  <div class="fields">
+                     <label>Other Loan</label>
+                     <input type="text" placeholder="Other Loan" />
+                  </div>
+                  <div class="fields">
+                     <label>License Fee</label>
+                     <input type="text" placeholder="License Fee" />
+                  </div>
+                  <div class="fields">
+                     <label>SUR-CHG</label>
+                     <input type="text" placeholder="SUR-CHG" />
+                  </div>
+                  <div class="fields">
+                     <label>INBA-loan</label>
+                     <input type="text" placeholder="INBA-loan" />
+                  </div>
+                  <div class="fields">
+                     <label>Pf-ADV</label>
+                     <input type="text" placeholder="Pf-ADV" />
+                  </div>
+                  <div class="fields">
+                     <label>CUR-FUR</label>
+                     <input type="text" placeholder="CUR-FUR" />
+                  </div>
+                  <div class="fields">
+                     <label>Govt-ca</label>
+                     <input type="text" placeholder="Govt-ca" />
+                  </div>
+                  <div class="fields">
+                     <label>NGIF-CA</label>
+                     <input type="text" placeholder="NGIF-CA" />
+                  </div>
+                  <div class="fields">
+                     <label>INBA-loan2</label>
+                     <input type="text" placeholder="INBA-loan2" />
+                  </div>
+                  <div class="fields">
+                     <label>MISC</label>
+                     <input type="text" placeholder="MISC" />
+                  </div>
+                  <div class="fields">
+                     <label>Total</label>
+                     <input type="text" placeholder="Total" />
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Third">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input"  type="text" placeholder="PERSONNEL NUMBER" />
+                     <input class="go-buttons blue" value="go" type="button" placeholder="PERSONNEL NUMBER" />
+                  </div>
+                  <div class="fields">
+                     <label>NAME</label>
+                     <input type="text" placeholder="NAME" />
+                  </div>
+               </div>
+               <div class="button">
+                  <input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Fourth">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input"  type="text" placeholder="PERSONNEL NUMBER" />
+                     <input class="go-buttons blue" value="go" type="button" placeholder="PERSONNEL NUMBER" />
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Fifth">
+               <div class="form_block">
+                  <div style="height:300px;float:left"></div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Sixth">
+               <div class="form_block">
+                  <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input"  type="text" placeholder="PERSONNEL NUMBER" />
+                     <input class="go-buttons blue" value="go" type="button" placeholder="PERSONNEL NUMBER" />
+                  </div>
+                  <div class="fields">
+                     <label>Nomination for</label>
+                     <input type="text" placeholder="Nomination for" />
+                  </div>
+                  <div class="fields">
+                     <label>Date of nomination</label>
+                     <input type="text" placeholder="Date of nomination" />
+                  </div>
+                  <div class="fields">
+                     <label>Photograph/Signature</label>
+                     <input class="half-width"type="text" placeholder="Photograph/Signature" />&nbsp;<input value="Browse" class=" buttons blue" type="button">
+                  </div>
+                  <div class="fields fullwidth">
+                     <label>Upload File</label>
+                     <input type="text" placeholder="Upload File" />
+                  </div>
+                  <div class="fields">
+                     <label>Nominee Details</label>
+                     <input value="Copy" class=" buttons blue" type="button">
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+            <div class="container"  id="Seventh">
+               <div class="form_block">
+                  <div class="fields fullwidth">
+                     <label>Personnel Number</label>
+                     <input class="small-input"  type="text" placeholder="PERSONNEL NUMBER" />
+                     <input class="go-buttons blue" value="go" type="button" placeholder="PERSONNEL NUMBER" />
+                  </div>
+                  <div class="fields">
+                     <label>ASSIGNMENT DETAILS</label>
+                  </div>
+               </div>
+               <div class="button"><input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+

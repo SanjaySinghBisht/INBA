@@ -1,0 +1,193 @@
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Loan Enhancement</title>
+      <script src="js/Jquery.js"></script>
+      <script src="js/common.js"></script>
+      <link href="css/style.css" type="text/css" rel="stylesheet">
+   </head>
+   <body>
+   <a class="back-button" href="Index.html">Back to homepage</a>
+      <div class="main-container">
+         <div class="tabs">
+            <nav class="menu">
+               <ul>
+                  <li><a class="active" name="First" href="#" >Loan Enhancement</a></li>
+               </ul>
+            </nav>
+            <div class="container"  id="First">
+               <div class="form_block">
+			   <div class="fields new-block fullwidth">
+                     <label class="no-width"><b>Loan Details</b></label>
+                  </div>
+				   <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+			   <div class="fields">
+                     <label>Personnel Number</label>
+                     <input class="small-input" placeholder="PERSONNEL NUMBER" type="text">
+                     <input class="go-buttons blue" value="go" placeholder="PERSONNEL NUMBER" type="button">
+                  </div>
+			  
+                  <div class="fields">
+                     <label>Name</label>
+                     <input  type="text" placeholder="Name" />
+                  </div>
+				  <div class="fields">
+                     <label>Loan Serial No.</label>
+                     <select class="dropdown"><option>Select</option></select>
+                  </div>
+				  <div class="fields">
+                     <label>Approval date</label>
+                     <input  type="text" placeholder="Approval date" />
+                  </div>
+				  <div class="fields">
+                     <label>Loan Amount</label>
+                     <input  type="text" placeholder="Loan Amount" />
+                  </div>
+				   <div class="fields">
+                     <label>Attached Amount</label>
+                     <input  type="text" placeholder="Attached Amount" />
+                  </div>
+				  <div class="fields">
+                     <label>EMI Running</label>
+                     <input  type="text" placeholder="EMI Running" />
+                  </div>
+				  <div class="fields">
+                     <label>Recoverable Amount</label>
+                     <input  type="text" placeholder="Recoverable Amount" />
+                  </div>
+				  <div class="fields">
+                     <label>Principal recovered</label>
+                     <input  type="text" placeholder="Principal recovered" />
+                  </div>
+				  <div class="fields">
+                     <label>interest recovered</label>
+                     <input  type="text" placeholder="interest recovered" />
+                  </div>
+				  <div class="fields">
+                     <label>Total amount recovered</label>
+                     <input  type="text" placeholder="Total amount recovered" />
+                  </div>
+				  <div class="fields">
+                     <label>Balance loan amount</label>
+                     <input  type="text" placeholder="Balance loan amount" />
+                  </div>
+				  <div class="fields">
+                     <label>Installments Recoverable</label>
+					 
+                     <input  placeholder="Installments Recoverable" type="text">
+					
+                  </div>
+				   
+				  <div class="fields">
+                     <label>Balance installments</label>
+                     <input  type="text" placeholder="Balance installments" />
+                  </div>
+				  <div class="fields">
+                     <label>repaying capacity</label>
+                     <input  type="text" placeholder="repaying capacity" />
+                  </div>
+				   
+				  <div class="fields">
+                     <label>Service left<span class="message">(in months)</span></label>
+                     <input  type="text" placeholder="Service left" />
+                  </div>
+				   <div class="fields">
+                     <label>last emi surplus</label>
+                     <input  type="text" placeholder="last emi surplus" />
+                  </div>
+                   <div class="fields new-block fullwidth">
+                     <label class="no-width"><b>Enhancement Details</b></label>
+                  </div>
+				   <div class="clear"></div>
+                  <div class="spacing">&nbsp;</div>
+				   <div class="fields fullwidth">
+				   <label>Additional /Alteration</label>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">yes</span>
+                     <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">no revised</span>
+					  <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">EMI</span>
+					  <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">tenure</span>
+					  <div class="checkbox-btn">
+                        <input name="group1" class="backup" value="1" type="checkbox">
+                     </div>
+                     <span class="radios full-radios">Balance</span>
+					  <input type="button" value="Calculator" class="buttons green"/>
+                  </div>
+				   
+                  <div class="fields">
+                     <label>Total loan<span class="validation">*</span></label>
+					 <input type="text" placeholder="Total loan" />
+                  </div>
+                  <div class="fields">
+                     <label>Enhanced amount<span class="validation">*</span></label>
+                     <input type="text" placeholder="Enhanced amount" />
+                  </div>
+                  <div class="fields">
+                     <label>Total recoverable</label>
+					<input type="text" placeholder=" Total recoverable" />
+                  </div>
+                  <div class="fields">
+                     <label>installments</label>
+                     <input type="text" placeholder="installments" />
+                  </div>
+                  <div class="fields">
+                     <label>End date<span class="validation">*</span></label>
+                     <input type="text" placeholder="End date" />
+                  </div>
+				  <div class="fields">
+                     <label>Revised emi</label>
+                     <input type="text" placeholder="Revised emi" />
+                  </div>
+				
+				   <div class="fields">
+                     <label>Processing fee</label>
+                     <input type="text" placeholder="Processing fee" />
+                  </div>
+				   <div class="fields">
+                     <label>total attached<span class="validation">*</span></label>
+                     <input type="text" placeholder="total attached" />
+                  </div>
+				 <div class="fields">
+                     <label>insurance</label>
+                     <input type="text" placeholder="insurance" />
+                  </div>
+				  <div class="fields">
+                     <label>Total Outstanding</label>
+                     <input type="text" placeholder="Total Outstanding" />
+                  </div>
+				 
+				 
+				  <div class="fields">
+                     <label style="float:left">remarks</label>
+                     <textarea></textarea>
+                  </div>
+				  
+               </div>
+               <div class="button">
+                  
+                  <input type="button" value="Add" class=" buttons lightgreen"/>
+                  <input type="button" value="save" class="buttons green"/>
+                  <input type="button" value="Edit" class="buttons darkgreen"/>
+                  <input type="button" value="Delete" class="buttons red"/>
+                  <input type="button" value="cancel" class="buttons darkred"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+
